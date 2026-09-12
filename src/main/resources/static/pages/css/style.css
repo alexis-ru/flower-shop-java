@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+main { flex: 1; }
+
+.navbar-brand { font-weight: 700; font-size: 1.4rem; }
+.footer { background: #e9ecef; }
+
+.status-working  { color: #198754; font-weight: 600; }
+.status-fired   { color: #dc3545; font-weight: 600; }
+.status-blocked { color: #fd7e14; font-weight: 600; }
